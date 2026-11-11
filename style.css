@@ -1,3 +1,9 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #333;
+}
+
 .card {
     display: flex;
     justify-content: flex-start;
@@ -40,4 +46,22 @@
     width: 200px;
     height: 250px;
     border-radius: 10px;
+}
+
+.list-friend {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: georgia, 'Times New Roman', Times, serif;
+}
+
+.list-friend th,
+.list-friend td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.list-friend th {
+    background-color: #f2f2f2;
 }
